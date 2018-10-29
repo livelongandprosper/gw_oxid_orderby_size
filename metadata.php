@@ -9,10 +9,13 @@ $sMetadataVersion = '2'; // see https://docs.oxid-esales.com/developer/en/6.0/mo
  */
 $aModule = array(
 	'id'           => 'gw_oxid_orderby_size',
-	'title'        => 'Order variants by confection size',
+	'title'        => array(
+		'de' => 'Variante-Sortierung nach größen',
+		'en' => 'Order variants by confection size',
+	),
 	'description'  => array(
-		'de'=>'Ordnet Artikel-Varianten nach Kleidergrößen (Konfektionsgrößen US 3XS-6XL, EU und Schuhe EU/DE 20-55).',
-		'en'=>'Variant articles are ordered by confection sizes (Confections sizes US 3XS-6XL, EU and Shoes EU/DE 20-55).',
+		'de'=>'Ordnet Artikel-Varianten nach Kleidergrößen (Konfektionsgrößen US 3XS-6XL und Schuhe EU/DE 20-55).',
+		'en'=>'Variant articles are ordered by confection sizes (Confections sizes US 3XS-6XL and Shoes EU/DE 20-55).',
 	),
 	'thumbnail'		=> '',
 	'version'		=> '1.0',
