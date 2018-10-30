@@ -30,6 +30,28 @@
 	   			when $tablename.OXVARSELECT LIKE '".($size_position==1?'%'.$separator:'')."5XL".($size_position==0?$separator.'%':'')."'  then 11
 	   			when $tablename.OXVARSELECT LIKE '".($size_position==1?'%'.$separator:'')."6XL".($size_position==0?$separator.'%':'')."'  then 12
 																					   
+	   			when $tablename.OXVARSELECT LIKE '".($size_position==1?'%'.$separator:'')."0".($size_position==0?$separator.'%':'')."'    then 25
+	   			when $tablename.OXVARSELECT LIKE '".($size_position==1?'%'.$separator:'')."1".($size_position==0?$separator.'%':'')."'    then 26
+	   			when $tablename.OXVARSELECT LIKE '".($size_position==1?'%'.$separator:'')."2".($size_position==0?$separator.'%':'')."'    then 27
+	   			when $tablename.OXVARSELECT LIKE '".($size_position==1?'%'.$separator:'')."3".($size_position==0?$separator.'%':'')."'    then 28
+	   			when $tablename.OXVARSELECT LIKE '".($size_position==1?'%'.$separator:'')."4".($size_position==0?$separator.'%':'')."'    then 29
+	   			when $tablename.OXVARSELECT LIKE '".($size_position==1?'%'.$separator:'')."5".($size_position==0?$separator.'%':'')."'    then 30
+	   			when $tablename.OXVARSELECT LIKE '".($size_position==1?'%'.$separator:'')."6".($size_position==0?$separator.'%':'')."'    then 31
+	   			when $tablename.OXVARSELECT LIKE '".($size_position==1?'%'.$separator:'')."7".($size_position==0?$separator.'%':'')."'    then 32
+	   			when $tablename.OXVARSELECT LIKE '".($size_position==1?'%'.$separator:'')."8".($size_position==0?$separator.'%':'')."'    then 33
+	   			when $tablename.OXVARSELECT LIKE '".($size_position==1?'%'.$separator:'')."9".($size_position==0?$separator.'%':'')."'    then 34
+	   			when $tablename.OXVARSELECT LIKE '".($size_position==1?'%'.$separator:'')."10".($size_position==0?$separator.'%':'')."'   then 35
+	   			when $tablename.OXVARSELECT LIKE '".($size_position==1?'%'.$separator:'')."11".($size_position==0?$separator.'%':'')."'   then 36
+	   			when $tablename.OXVARSELECT LIKE '".($size_position==1?'%'.$separator:'')."12".($size_position==0?$separator.'%':'')."'   then 37
+	   			when $tablename.OXVARSELECT LIKE '".($size_position==1?'%'.$separator:'')."13".($size_position==0?$separator.'%':'')."'   then 38
+	   			when $tablename.OXVARSELECT LIKE '".($size_position==1?'%'.$separator:'')."14".($size_position==0?$separator.'%':'')."'   then 39
+	   			when $tablename.OXVARSELECT LIKE '".($size_position==1?'%'.$separator:'')."15".($size_position==0?$separator.'%':'')."'   then 40
+	   			when $tablename.OXVARSELECT LIKE '".($size_position==1?'%'.$separator:'')."16".($size_position==0?$separator.'%':'')."'   then 41
+	   			when $tablename.OXVARSELECT LIKE '".($size_position==1?'%'.$separator:'')."17".($size_position==0?$separator.'%':'')."'   then 42
+	   			when $tablename.OXVARSELECT LIKE '".($size_position==1?'%'.$separator:'')."18".($size_position==0?$separator.'%':'')."'   then 43
+	   			when $tablename.OXVARSELECT LIKE '".($size_position==1?'%'.$separator:'')."19".($size_position==0?$separator.'%':'')."'   then 44
+	   			when $tablename.OXVARSELECT LIKE '".($size_position==1?'%'.$separator:'')."20".($size_position==0?$separator.'%':'')."'   then 45
+
 	   			when $tablename.OXVARSELECT LIKE '".($size_position==1?'%'.$separator:'')."20".($size_position==0?$separator.'%':'')."'   then 46
 	   			when $tablename.OXVARSELECT LIKE '".($size_position==1?'%'.$separator:'')."21".($size_position==0?$separator.'%':'')."'   then 47
 	   			when $tablename.OXVARSELECT LIKE '".($size_position==1?'%'.$separator:'')."22".($size_position==0?$separator.'%':'')."'   then 48
