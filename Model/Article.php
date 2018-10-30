@@ -108,7 +108,7 @@
 			if($this->getParentId()) {
 				$parent = $this->getParentArticle();
 			}
-			$order_string = self::get_mysql_orderby_sizes($sArticleTable, ($parent && $parent->hasMdVariants()?' ':''));
+			$order_string = self::get_mysql_orderby_sizes($sArticleTable, (!$parent || $parent->hasMdVariants()?' ':''));
 			return "select " . $baseObject->getSelectFields($forceCoreTableUsage) . " from $sArticleTable where " .
 				$this->getActiveCheckQuery($forceCoreTableUsage) .
 				$this->getVariantsQuery($blRemoveNotOrderables, $forceCoreTableUsage) .
