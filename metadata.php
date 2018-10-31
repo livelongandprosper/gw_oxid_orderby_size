@@ -31,7 +31,9 @@ $aModule = array(
 	),
 	'blocks' => array(
 	),
-	'events'       => array(
+	'events' => array(
+		'onActivate'   => '\gw\gw_oxid_orderby_size\Core\Events::onActivate',
+		'onDeactivate' => '\gw\gw_oxid_orderby_size\Core\Events::onDeactivate'
 	),
 	'controllers'  => [
 	],
